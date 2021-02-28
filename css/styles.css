@@ -1,6 +1,3 @@
-/* ----------------------------- */
-/* ICON */
-/* ----------------------------- */
 
 /* ----------------------------- */
 /* GLOBAL */
@@ -10,6 +7,15 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6, h7{
+    font-family: 'Bodoni Moda', serif;
+}
+
 
 header{
     display: grid;
@@ -27,8 +33,8 @@ header{
 }
 
 .header a {
+    color: inherit;
     text-decoration: inherit;
-    color: inherit; 
 }
 
 .bars{
@@ -41,6 +47,11 @@ header{
 .navigation {
     display: none;
  }
+
+ .header .current {
+    text-decoration: solid 3px underline #ffffff;
+}
+
 
 /* ----------------------------- */
 /* HOME PAGE */
@@ -79,11 +90,11 @@ header{
     max-width: 190px;
 }
 
-.transbox h6,
-.exhibition-transbox h6,
-.event-transbox h6,
-.explore-transbox h6,
-.getinvolved-transbox h6 {
+.transbox h1,
+.exhibition-transbox h1,
+.event-transbox h1,
+.explore-transbox h1,
+.getinvolved-transbox h1 {
     font-size: 100%;
     margin: 5%;
 }
