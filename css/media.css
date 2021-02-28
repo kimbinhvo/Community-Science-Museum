@@ -1,0 +1,1047 @@
+/* For screen beetween 480 - 767 */ 
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+    .header h5 {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+
+    h2 {
+       font-size: 200%;
+    }
+
+    .welcome,
+    .exhibition-welcome,
+    .event-welcome,
+    .explore-welcome,
+    .getinvolved-welcome  {
+        height: 60vh;
+    }
+
+    .transbox,
+    .exhibition-transbox,
+    .event-transbox,
+    .explore-transbox,
+    .getinvolved-transbox {
+        max-width: 250px;
+    }
+
+    .transbox h6,
+    .exhibition-transbox h6,
+    .event-transbox h6,
+    .explore-transbox h6,
+    .getinvolved-transbox h6{
+        font-size: 120%;
+    }
+
+    .events-home p {
+        font-size: 100%;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+
+    /* ----------------------------- */
+    /* EXHIBITION SPACES */
+    /* ----------------------------- */
+
+    .exhibition-home{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:20px;
+    }
+
+    .textbox-one,
+    .textbox-three,
+    .textbox-five {
+        left: 24%;
+    }
+
+    .textbox-two,
+    .textbox-four,
+    .textbox-six {
+        left: 76%;
+    }
+    
+    .textbox-one p,
+    .textbox-two p,
+    .textbox-three p,
+    .textbox-four p,
+    .textbox-five p ,
+    .textbox-six p{
+        min-width: 165px;
+    }
+    
+    .textbox-one,
+    .textbox-two{
+        top: 22%;
+    }
+    
+    .textbox-three,
+    .textbox-four{
+        top: 53%;
+    }
+    
+    .textbox-five,
+    .textbox-six {
+        top: 84%;
+    }
+
+    /* ----------------------------- */
+    /* EXPLORE */
+    /* ----------------------------- */
+    
+    .explore-home{
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 20px;
+    }
+    
+    .explore-home img {
+        width: 70%;
+    }
+
+    .textbox-seven p,
+    .textbox-eight p,
+    .textbox-nine p{
+        padding: 10px;
+        font-size: 12px;
+        max-width: 180px;
+    }
+
+    /* ----------------------------- */
+    /*  VISIT US*/
+    /* ----------------------------- */
+
+    .visit-home{
+        max-width: 300px;
+    }
+
+    .visit-home h3 {
+        font-size: 140%;
+        margin-bottom: 20px;
+    }
+    
+    .visit-home li {
+        font-size: 100%;
+    }
+
+    .visit-box p {
+        font-size: 100%;
+        padding: 7px;
+    }
+
+    /* ----------------------------- */
+    /* FOOTER */
+    /* ----------------------------- */
+
+    .footer-grid li {
+        font-size: 120%;
+    }
+
+    footer p {
+        font-size: 90%;
+    }
+
+    /* ----------------------------- */
+    /* EXHIBITIONS */
+    /* ----------------------------- */
+
+    .exhibition-transbox p{
+        font-size: 70%;
+    }
+
+    .exhibition-text h7  {
+        font-size: 250%;
+    }
+
+    .exhibition-text p {
+        font-size: 100%;
+        padding-top: 20px;
+    }
+
+    /* ----------------------------- */
+    /*  SPECIAL EVENTS */
+    /* ----------------------------- */
+
+    .event-transbox p{
+        font-size: 70%;
+    }
+
+    /* ----------------------------- */
+    /*  EXPLORE */
+    /* ----------------------------- */
+
+
+    .explore-transbox p{
+        font-size: 70%;
+    }
+
+    
+    /* ----------------------------- */
+    /*  GET INVOLVED*/
+    /* ----------------------------- */
+
+    .getinvolved-transbox p{
+        font-size: 70%;
+    }
+
+
+
+
+    
+}
+
+/* For screen beetween 768 - 1023 */ 
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+    .header h5 {
+        font-size: 24px;
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+
+    h2 {
+        font-size: 250%;
+    }
+
+    .welcome,
+    .exhibition-welcome,
+    .event-welcome,
+    .explore-welcome,
+    .getinvolved-welcome  {
+        height: 70vh;
+    }
+
+    .transbox,
+    .exhibition-transbox,
+    .event-transbox,
+    .explore-transbox,
+    .getinvolved-transbox {
+        max-width: 300px;
+    }
+
+    .transbox h6,
+    .exhibition-transbox h6,
+    .event-transbox h6,
+    .explore-transbox h6,
+    .getinvolved-transbox h6{
+        font-size: 150%;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    /* ----------------------------- */
+    /* SPEACIAL EVENTS */
+    /* ----------------------------- */
+
+    .events-home img {
+        width: 60%;
+    }
+
+
+    .events-home p {
+        font-size: 120%;
+    }
+
+
+    /* ----------------------------- */
+    /* EXHIBITION SPACES */
+    /* ----------------------------- */
+
+    .exhibition-home{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:30px;
+    }
+
+    .exhibition-home h4 {
+        font-size: 120%;
+    }
+
+    .textbox-one,
+    .textbox-three,
+    .textbox-five {
+        left: 24%;
+    }
+
+    .textbox-two,
+    .textbox-four,
+    .textbox-six {
+        left: 76%;
+    }
+    
+    .textbox-one p,
+    .textbox-two p,
+    .textbox-three p,
+    .textbox-four p,
+    .textbox-five p ,
+    .textbox-six p{
+        font-size: 75%;
+        min-width: 165px;
+    }
+    
+    .textbox-one,
+    .textbox-two{
+        top: 22%;
+    }
+    
+    .textbox-three,
+    .textbox-four{
+        top: 53%;
+    }
+    
+    .textbox-five,
+    .textbox-six {
+        top: 84%;
+    }
+
+    /* ----------------------------- */
+    /* EXPLORE */
+    /* ----------------------------- */
+    
+    .explore-home{
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 20px;
+    }
+
+    .explore-home h4 {
+        font-size: 120%;
+    }
+
+    
+    .explore-home img {
+        width: 70%;
+    }
+
+    .textbox-seven p,
+    .textbox-eight p,
+    .textbox-nine p{
+        padding: 10px;
+        font-size: 90%;
+        max-width: 200px;
+    }
+
+    /* ----------------------------- */
+    /*  VISIT US*/
+    /* ----------------------------- */
+
+    .visit-home{
+        max-width: 350px;
+    }
+
+    .visit-home h3 {
+        font-size: 180%;
+        margin-bottom: 25px;
+    }
+    
+    .visit-home li {
+        font-size: 120%;
+        margin-left: 50px;
+    }
+
+    .visit-box p {
+        font-size: 120%;
+        padding: 7px;
+    }
+
+    /* ----------------------------- */
+    /* FOOTER */
+    /* ----------------------------- */
+
+    footer {
+        min-height: 150px;
+    }
+
+    .footer-grid li {
+        font-size: 130%;
+    }
+
+    .footer-nav {
+        flex-direction: row;
+    }
+
+    .footer-nav li {
+        margin: 10px;
+    }
+
+
+    .social-links {
+        flex-direction: row;
+    }
+
+    .social-links li{
+        margin: 10px;
+    }
+
+    footer p {
+        font-size: 100%;
+    }
+
+    /* ----------------------------- */
+    /* EXHIBITIONS */
+    /* ----------------------------- */
+
+    .exhibition-transbox p{
+        font-size: 75%;
+    }
+    .exhibition-evolution,
+    .exhibition-robot,
+    .exhibition-biology,
+    .exhibition-ecology,
+    .exhibition-cosmology  {
+        flex-direction: row;
+    }
+
+    .exhibition-text {
+        min-width: 35%;
+        max-width: 35%;
+    }
+
+    .exhibition-img img {
+        margin: 20px auto;
+    }
+
+    /* ----------------------------- */
+    /*  SPECIAL EVENTS */
+    /* ----------------------------- */
+
+    .event-transbox p{
+        font-size: 75%;
+    }
+
+    .event-professor,
+    .event-energetica,
+    .event-museum {
+        flex-direction: row;;
+    }
+
+    /* ----------------------------- */
+    /*  EXPLORE */
+    /* ----------------------------- */
+
+
+    .explore-transbox p{
+        font-size: 75%;
+    }
+
+    .explore-kids,
+    .explore-teachers,
+    .explore-researchers {
+        flex-direction: row;
+        }
+
+    /* ----------------------------- */
+    /*  GET INVOLVED*/
+    /* ----------------------------- */
+
+    .getinvolved-transbox p{
+        font-size: 70%;
+    }
+
+    
+    
+    
+}
+
+/* For screen beetween 1023 - 1200 */ 
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+
+    .header h5 {
+        font-size: 24px;
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+
+
+    h2 {
+        font-size: 300%;
+    }
+
+    .welcome,
+    .exhibition-welcome,
+    .event-welcome,
+    .explore-welcome,
+    .getinvolved-welcome  {
+        height: 75vh;
+    }
+
+    .transbox,
+    .exhibition-transbox,
+    .event-transbox,
+    .explore-transbox,
+    .getinvolved-transbox {
+        max-width: 350px;
+    }
+
+    .transbox h6,
+    .exhibition-transbox h6,
+    .event-transbox h6,
+    .explore-transbox h6,
+    .getinvolved-transbox h6{
+        font-size: 190%;
+    }
+
+    .bars {
+        display: none;
+    }
+
+    .navigation {
+        display: inline;
+    }
+
+    nav ul {
+        float: right;
+    }
+
+    nav li {
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        font-size: 100%;
+        padding: 5px 3px;
+        margin-right: 10px;
+        margin-top: 18px; 
+    }
+
+    /* ----------------------------- */
+    /* SPEACIAL EVENTS */
+    /* ----------------------------- */
+
+    .events-home img {
+        width: 55%;
+    }
+
+    .events-home p {
+        font-size: 120%;
+    }
+
+
+    /* ----------------------------- */
+    /* EXHIBITION SPACES */
+    /* ----------------------------- */
+
+    .exhibition-home{
+        grid-template-columns: repeat(3,1fr);
+        grid-gap:30px;
+    }
+
+    .exhibition-home h4 {
+        font-size: 110%;
+    }
+
+    .textbox-one,
+    .textbox-four {
+        left: 15%;
+    }
+
+    .textbox-two,
+    .textbox-five {
+        left: 50%;
+    }
+
+    .textbox-three,
+    .textbox-six {
+        left: 84%;
+    }
+
+    
+    .textbox-one p,
+    .textbox-two p,
+    .textbox-three p,
+    .textbox-four p,
+    .textbox-five p ,
+    .textbox-six p{
+        font-size: 75%;
+        min-width: 165px;
+    }
+    
+    .textbox-one,
+    .textbox-two,
+    .textbox-three{
+        top: 32%;
+    }
+    
+    .textbox-four,
+    .textbox-five,
+    .textbox-six {
+        top: 75%;
+    }
+
+    /* ----------------------------- */
+    /* EXPLORE */
+    /* ----------------------------- */
+    
+    .explore-home{
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 30px;
+    }
+
+    .explore-home h4 {
+        font-size: 100%;
+        padding: 1px;
+    }
+
+    .explore-home img {
+        width: 100%;
+    }
+
+    .textbox-seven p,
+    .textbox-eight p,
+    .textbox-nine p{
+        padding: 5px;
+        font-size: 80%;
+        max-width: 180px;
+    }
+
+    .textbox-seven,
+    .textbox-eight,
+    .textbox-nine
+    {
+        top: 55%;
+    }
+
+    .textbox-seven{
+        left: 15%;
+    }
+    
+    .textbox-nine{
+        left: 85%;
+    }
+    
+    /* ----------------------------- */
+    /*  VISIT US*/
+    /* ----------------------------- */
+
+    .visit-home{
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 40px;
+        min-width: 1100px;
+    }
+
+    .visit-home h3 {
+        font-size: 180%;
+        margin-bottom: 25px;
+    }
+    
+    .visit-home li {
+        font-size: 120%;
+    }
+
+    .visit-box p {
+        font-size: 120%;
+        padding: 10px;
+    }
+
+    /* ----------------------------- */
+    /* FOOTER */
+    /* ----------------------------- */
+
+    footer {
+        min-height: 160px;
+    }
+
+    .footer-grid li {
+        font-size: 150%;
+    }
+
+    .footer-nav {
+        flex-direction: row;
+    }
+
+    .footer-nav li {
+        margin: 15px;
+    }
+
+
+    .social-links {
+        flex-direction: row;
+    }
+
+    .social-links li{
+        margin: 15px;
+    }
+
+    footer p {
+        font-size: 120%;
+    }
+
+    .exhibition-transbox p{
+        font-size: 80%;
+    }
+
+    /* ----------------------------- */
+    /* EXHIBITIONS */
+    /* ----------------------------- */
+
+    .exhibition-transbox p{
+        font-size: 85%;
+    }
+
+    .exhibition-evolution,
+    .exhibition-robot,
+    .exhibition-biology,
+    .exhibition-ecology,
+    .exhibition-cosmology  {
+        flex-direction: row;
+    }
+
+    .exhibition-text h7  {
+        font-size: 250%;
+    }
+
+    .exhibition-text p {
+        font-size: 100%;
+        padding-top: 20px;
+    }
+
+    .exhibition-text {
+        min-width: 35%;
+        max-width: 35%;
+    }
+
+    .exhibition-img img {
+        margin: 20px auto;
+    }
+
+    /* ----------------------------- */
+    /*  SPECIAL EVENTS */
+    /* ----------------------------- */
+
+    .event-transbox p{
+        font-size: 85%;
+    }
+
+    .event-professor,
+    .event-energetica,
+    .event-museum {
+        flex-direction: row;;
+    }
+
+    /* ----------------------------- */
+    /*  EXPLORE */
+    /* ----------------------------- */
+
+    .explore-transbox p{
+        font-size: 85%;
+    }
+
+    .explore-kids,
+    .explore-teachers,
+    .explore-researchers {
+        flex-direction: row;
+    }
+
+    /* ----------------------------- */
+    /*  GET INVOLVED*/
+    /* ----------------------------- */
+
+    .getinvolved-transbox p{
+        font-size: 85%;
+    }
+
+
+}
+
+/* For screen 1200 and bigger */ 
+@media only screen and (min-width: 1200px){
+
+    .header h5 {
+        font-size: 24px;
+        margin-top: 20px;
+        margin-left: 30px;
+        text-decoration: inherit;
+        color: inherit;
+    }
+
+    h2 {
+        font-size: 300%;
+    }
+  
+    .welcome,
+    .exhibition-welcome,
+    .event-welcome,
+    .explore-welcome,
+    .getinvolved-welcome  {
+        height: 75vh;
+    }
+
+    .transbox,
+    .exhibition-transbox,
+    .event-transbox,
+    .explore-transbox,
+    .getinvolved-transbox {
+        max-width: 450px;
+    }
+
+    .transbox h6,
+    .exhibition-transbox h6,
+    .event-transbox h6,
+    .explore-transbox h6,
+    .getinvolved-transbox h6{
+        font-size: 240%;
+    }
+    .bars {
+        display: none;
+    }
+
+    .navigation {
+        display: inline;
+    }
+
+    nav ul {
+        float: right;
+    }
+
+    nav li {
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        font-size: 110%;
+        padding: 10px 7px;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+
+    /* ----------------------------- */
+    /* SPEACIAL EVENTS */
+    /* ----------------------------- */
+
+    .events-home img {
+        width: 50%;
+    }
+
+    .events-home p {
+        font-size: 130%;
+    }
+
+
+    /* ----------------------------- */
+    /* EXHIBITION SPACES */
+    /* ----------------------------- */
+
+    .exhibition-home{
+        grid-template-columns: repeat(3,1fr);
+        grid-gap:50px;
+        margin: 50px;
+    }
+
+    .exhibition-home h4 {
+        font-size: 120%;
+    }
+
+    .textbox-one,
+    .textbox-four {
+        left: 15%;
+    }
+
+    .textbox-two,
+    .textbox-five {
+        left: 50%;
+    }
+
+    .textbox-three,
+    .textbox-six {
+        left: 85%;
+    }
+
+    
+    .textbox-one p,
+    .textbox-two p,
+    .textbox-three p,
+    .textbox-four p,
+    .textbox-five p ,
+    .textbox-six p{
+        font-size: 80%;
+        min-width: 165px;
+    }
+    
+    .textbox-one,
+    .textbox-two,
+    .textbox-three{
+        top: 32%;
+    }
+    
+    .textbox-four,
+    .textbox-five,
+    .textbox-six {
+        top: 75%;
+    }
+
+    /* ----------------------------- */
+    /* EXPLORE */
+    /* ----------------------------- */
+    
+    .explore-home{
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 50px;
+        margin: 50px;
+    }
+
+    .explore-home h4 {
+        font-size: 120%;
+        padding: 1px;
+    }
+
+    .explore-home img {
+        width: 100%;
+    }
+
+    .textbox-seven p,
+    .textbox-eight p,
+    .textbox-nine p{
+        padding: 5px;
+        font-size: 90%;
+        max-width: 180px;
+    }
+
+    .textbox-seven,
+    .textbox-eight,
+    .textbox-nine
+    {
+        top: 55%;
+    }
+
+    .textbox-seven{
+        left: 15%;
+    }
+    
+    .textbox-nine{
+        left: 85%;
+    }
+    
+    /* ----------------------------- */
+    /*  VISIT US*/
+    /* ----------------------------- */
+
+    .visit-home{
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 40px;
+        min-width: 90%;
+    }
+
+    .visit-home h3 {
+        font-size: 190%;
+        margin-bottom: 25px;
+    }
+    
+    .visit-home li {
+        font-size: 120%;
+    }
+
+    .visit-box p {
+        font-size: 125%;
+        padding: 10px;
+    }
+
+    /* ----------------------------- */
+    /* FOOTER */
+    /* ----------------------------- */
+
+
+    footer {
+        min-height: 170px;
+    }
+
+    .footer-grid li {
+        font-size: 150%;
+    }
+
+    .footer-nav {
+        flex-direction: row;
+    }
+
+    .footer-nav li {
+        margin: 15px;
+    }
+
+
+    .social-links {
+        flex-direction: row;
+    }
+
+    .social-links li{
+        margin: 15px;
+    }
+
+    footer p {
+        font-size: 120%;
+    }
+
+    .exhibition-transbox p{
+        font-size: 85%;
+    }
+
+    /* ----------------------------- */
+    /* EXHIBITIONS */
+    /* ----------------------------- */
+
+    .exhibition-transbox p{
+        font-size: 100%;
+    }
+
+    .exhibition-evolution,
+    .exhibition-robot,
+    .exhibition-biology,
+    .exhibition-ecology,
+    .exhibition-cosmology  {
+        flex-direction: row;
+    }
+
+    .exhibition-text h7  {
+        font-size: 280%;
+    }
+
+    .exhibition-text p {
+        font-size: 120%;
+        padding-top: 30px;
+    }
+
+    .exhibition-text {
+        min-width: 35%;
+        max-width: 35%;
+    }
+
+    .exhibition-img img {
+        margin: 20px auto;
+    }
+
+     /* ----------------------------- */
+    /*  SPECIAL EVENTS */
+    /* ----------------------------- */
+
+    .event-transbox p{
+        font-size: 100%;
+    }
+
+    .event-professor,
+    .event-energetica,
+    .event-museum {
+        flex-direction: row;;
+    }
+
+    /* ----------------------------- */
+    /*  EXPLORE */
+    /* ----------------------------- */
+
+
+    .explore-transbox p{
+        font-size: 100%;
+    }
+
+    .explore-kids,
+    .explore-teachers,
+    .explore-researchers {
+        flex-direction: row;
+    }
+
+      /* ----------------------------- */
+    /*  GET INVOLVED*/
+    /* ----------------------------- */
+
+    .getinvolved-transbox p{
+        font-size: 100%;
+    }
+}
+    
+
