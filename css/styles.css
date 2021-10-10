@@ -37,16 +37,40 @@ header{
     text-decoration: inherit;
 }
 
-.bars{
+.fas{
     float: right;
-    font-size: 150%;
-    margin-top: 20px;
-    margin-right: 20px;
+    font-size: 175%;
+    margin: 25px;
 }
 
-.navigation {
-    display: none;
- }
+
+#hamburger-menu {
+   display: none;
+}
+
+#hamburger-menu:checked ~ .navigation {
+    display: inline;
+}
+
+.navigation ul {
+    float: right;
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 60%;
+    padding: 10px 50px;
+    z-index: 1;
+}
+
+.navigation li {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 130%;
+    font-weight: 600;
+    margin-left: 20px;
+    padding: 5px;
+}
+
 
  .header .current {
     text-decoration: solid 3px underline #ffffff;
@@ -555,4 +579,94 @@ footer p {
 .getinvolved-transbox p{
     font-size: 60%;
     margin: 5%;
+}
+
+/* ----------------------------- */
+/* CONTACT US */
+/* ----------------------------- */
+
+.contact {
+    min-height: 50vh;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.contact h1 {
+    font-size: 200%;
+    margin-top: 20px;
+}
+
+.contact-info {
+    background-color: #D6E7E9;
+    margin: 5px;
+    padding: 5px;
+}
+
+.contact-info li {
+    font-size: 120%;
+    list-style: none;
+    padding: 5px;
+}
+
+.contact-container {
+    max-width: 650px;
+    margin: auto;
+}
+
+.contact h3 {
+    font-size: 150%;
+    margin-top: 50px;
+}
+
+.contact label {
+    font-weight: 800;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-areas: 'contact-form-1 contact-form-2'
+                         'form-error'; 
+    grid-gap: 10px;
+    margin: 30px auto 10px; 
+}
+
+input[id=name],
+input[id=subject],
+input[id=email] {
+    width: 60%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+textarea {
+    width: 60%;
+    height: 100px;
+    padding: 5px;
+}
+
+.form-error {
+    display: none;
+    color: red;
+    font-size: 90%;
+    margin-top: 1px;
+}
+
+.success {
+    background: green;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin: 20px 120px;
+    font-size: 80%;
+}
+
+.fail {
+    background: red;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin: 20px 120px;
+    font-size: 80%;
 }

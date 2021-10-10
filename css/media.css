@@ -233,7 +233,10 @@
     .navigation {
         display: none;
     }
-
+    
+    .navigation ul {
+        padding: 10px 100px;
+    }
     /* ----------------------------- */
     /* SPEACIAL EVENTS */
     /* ----------------------------- */
@@ -484,25 +487,30 @@
         font-size: 190%;
     }
 
-    .bars {
+    .fas {
         display: none;
     }
 
     .navigation {
         display: inline;
     }
-
-    nav ul {
+    
+    .navigation ul {
         float: right;
+        position: relative;
+        margin-top: 0px;
+        margin-left: 0%;
+        padding: 0px;
+        background-color: #111721;
     }
 
-    nav li {
+    .navigation li {
         display: inline-block;
         color: rgb(255, 255, 255);
-        font-size: 100%;
-        padding: 5px 3px;
-        margin-right: 10px;
-        margin-top: 18px; 
+        font-size: 80%;
+        padding: 5px 0px;
+        margin-right: 5px;
+        margin-top: 21px; 
     }
 
     /* ----------------------------- */
@@ -782,26 +790,33 @@
     .getinvolved-transbox h1{
         font-size: 240%;
     }
-    .bars {
+
+    .fas {
         display: none;
     }
 
     .navigation {
         display: inline;
     }
-
-    nav ul {
+    
+    .navigation ul {
         float: right;
+        position: relative;
+        margin-top: 0px;
+        margin-left: 0%;
+        padding: 0px;
+        background-color: #111721;
     }
 
-    nav li {
+    .navigation li {
         display: inline-block;
         color: rgb(255, 255, 255);
         font-size: 110%;
-        padding: 10px 7px;
-        margin-right: 15px;
-        margin-top: 15px;
+        padding: 5px 0px;
+        margin-right: 10px;
+        margin-top: 23px; 
     }
+
 
     /* ----------------------------- */
     /* SPEACIAL EVENTS */
