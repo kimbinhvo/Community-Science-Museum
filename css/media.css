@@ -507,9 +507,9 @@
     .navigation li {
         display: inline-block;
         color: rgb(255, 255, 255);
-        font-size: 80%;
+        font-size: 75%;
         padding: 5px 0px;
-        margin-right: 5px;
+        margin-right: 0px;
         margin-top: 21px; 
     }
 
@@ -811,9 +811,9 @@
     .navigation li {
         display: inline-block;
         color: rgb(255, 255, 255);
-        font-size: 110%;
+        font-size: 100%;
         padding: 5px 0px;
-        margin-right: 10px;
+        margin-right: 5px;
         margin-top: 23px; 
     }
 
